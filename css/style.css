@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(175, 175, 175);
+}
+
+#fonte {
+    color: black;
+}
+
+#if {
+    margin: 10px;
+}
+
+.botao {
+    border: 3px solid rgb(255, 110, 50);
+    border-radius: 15px;
+    background-color: rgb(255, 150, 0);
+    padding: 3px;
+    animation: changeColor 2.5s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        box-shadow: 0 0 25px rgb(255, 200, 0);
+    }
+
+    40% {
+        box-shadow: 0 0 25px rgb(255, 150, 0);
+    }
+
+    60% {
+        box-shadow: 0 0 25px rgb(255, 100, 0);
+    }
+
+    80% {
+        box-shadow: 0 0 25px rgb(255, 50, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 25px rgb(255, 150, 0);
+    }
+}
+
+#idade {
+    border: 2px solid rgb(255, 155, 0);
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgb(255, 160, 0);
+    padding: 3px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}

@@ -2,6 +2,7 @@ body {
     background-color: rgb(175, 175, 175);
 }
 
+
 #fonte {
     color: black;
 }
@@ -20,7 +21,7 @@ body {
 
 @keyframes changeColor {
     0% {
-        box-shadow: 0 0 25px rgb(255, 200, 0);
+        box-shadow: 0 0 25px rgb(255, 180, 0);
     }
 
     40% {
@@ -46,4 +47,5 @@ body {
     box-shadow: 0 0 10px rgb(255, 160, 0);
     padding: 3px;
     transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: changeColor 2.5s infinite;
 }
